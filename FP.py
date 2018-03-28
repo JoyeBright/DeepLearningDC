@@ -1,4 +1,4 @@
-# Coding the forward propagation algorithm
+# Forward Propagation Algorithm
 import numpy as np
 
 input_data = np.array([2,3])
