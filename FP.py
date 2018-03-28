@@ -15,6 +15,9 @@ hidden_layer_values = np.array([node0_value,node1_value])
 print("Hidden layers values: %s" %hidden_layer_values)
 output = (hidden_layer_values * weights['output']).sum()
 
+#Written transaction because of the problem
+#Here we wanted to predict the number of the next year transaction based on two parameters or features
+#like age or number of children and so on
 print("Total # of Transactions:%d" %output)
 
 
