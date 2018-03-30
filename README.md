@@ -4,4 +4,4 @@
 
 * ### Forward Propagation Neural Network
 * ### Activation Function (RELU)
-* ### Predict With Network
+* ### Applying the network to many observations/rows of data
