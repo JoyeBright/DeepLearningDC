@@ -4,9 +4,9 @@ import numpy as np
 input_data = np.array([2,3])
 
 # Using dictionary in order to save weights of hidden and output layer
-weights = { 'node0': np.array([1,1]),
-            'node1': np.array([-1,1]),
-            'output': np.array([2,-1])}
+weights = {'node0': np.array([1,1]),
+           'node1': np.array([-1,1]),
+           'output': np.array([2,-1])}
 node0_value = (input_data * weights['node0']).sum()
 # Note: sum() is a built-in function which works as an iterator
 node1_value = (input_data * weights['node1']).sum()
