@@ -9,3 +9,5 @@
 * ### Loss Function
 * ### Mean Squared Error (MSE), Scaling up loss function to multiple data points
 * ### Calculating Slopes Using Gradient Descent
+* ### Calculating Error Using Learning Rate
+* ### Making multiple updates to weights
