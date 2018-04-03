@@ -2,7 +2,7 @@
 
 ## Contents
 
-* ### Forward Propagation Neural Network
+* ### Forward Propagation Neural Networks
 * ### Activation Function (RELU)
 * ### Applying the network to many observations/rows of data
 * ### Multi-Layer Neural Network
@@ -11,3 +11,4 @@
 * ### Calculating Slopes Using Gradient Descent
 * ### Calculating Error Using Learning Rate
 * ### Making multiple updates to weights
+* ### Backward Propagation Neural Networks
