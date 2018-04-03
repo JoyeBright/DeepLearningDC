@@ -12,6 +12,8 @@ error = preds - target
 
 slope = 2 * error * input_data
 
+# I have read somewhere that we have not always to check the slope by subtracting the current weights. It is sometimes
+# needed to add the value to the current weights. It is like making the gravity called gradient descent
 # Update the weights: weights_updated
 UpdatedWeights = weights - (slope * learning_rate)
 
