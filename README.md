@@ -12,3 +12,4 @@
 * ### Calculating Error Using Learning Rate
 * ### Making multiple updates to weights
 * ### Backward Propagation Neural Networks
+* ### Building Models in Keras https://keras.io/  
