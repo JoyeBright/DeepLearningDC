@@ -13,3 +13,4 @@
 * ### Making multiple updates to weights
 * ### Backward Propagation Neural Networks
 * ### Building Models in [Keras](https://keras.io/) (Specify Architecture, Compile Model, Fit Model, Prediction)
+* ### Classification Models in [Keras](https://keras.io/) (Titanic Dataset)
