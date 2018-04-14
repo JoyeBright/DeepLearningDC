@@ -10,13 +10,17 @@ import keras
 from keras.layers import Dense
 from keras.models import Sequential
 
-predictors = np.loadtxt('', delimiter=',')
+target = np.loadtxt('Datasets/hourly_wages.csv', dtype=float, delimiter=',', skiprows=1, usecols=0)
+predictors = np.loadtxt('Datasets/hourly_wages.csv',
+                        dtype=float,
+                        delimiter=',', skiprows=1,
+                        usecols=(1, 2, 3, 4, 5, 6, 7, 8, 9))
 n_cols = predictors.shape[1]
 model = Sequential()
 # Add the first layer
-model.add(Dense(50, Activation="relu", input_shape=(n_cols,)))
+model.add(Dense(50, activation="relu", input_shape=(n_cols,)))
 # Add the second layer
-model.add(Dense(32, Activation="relu"))
+model.add(Dense(32, activation="relu"))
 # Add the output layer
 model.add(Dense(1))
 # Compile the model
@@ -25,4 +29,5 @@ model.compile(optimizer='adam', loss='mean_squared_error')
 # By Printing model.loss u can access its loss function
 # Fitting the model
 model.fit(predictors, target)
+
 
