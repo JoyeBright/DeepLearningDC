@@ -28,3 +28,8 @@ model.add(Dense(2, activation='softmax'))
 model.compile(optimizer='sgd', loss='categorical_crossentropy', metrics=['accuracy'])
 # Fit the model
 model.fit(predictors, target, epochs=10)
+# Save the final model into the specific directory
+# Becareful, Saving model needs h5py
+# model.save('Models/model_titanic.h5')
+# model.summary()
+
