@@ -6,7 +6,6 @@
 # dispersion, shape of a dataset's distribution, exluding NaN (Not a number) values.
 
 import numpy as np
-import keras
 from keras.layers import Dense
 from keras.models import Sequential
 
@@ -26,8 +25,9 @@ model.add(Dense(1))
 # Compile the model
 model.compile(optimizer='adam', loss='mean_squared_error')
 # What is loss function of the method?
+# print("Loss Function: "+ model.loss)
 # By Printing model.loss u can access its loss function
 # Fitting the model
-model.fit(predictors, target)
+model.fit(predictors, target, epochs=10)
 
 
