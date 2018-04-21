@@ -15,3 +15,4 @@
 * ### Building Models in [Keras](https://keras.io/) (Specify Architecture, Compile Model, Fit Model, Prediction)
 * ### Classification Models in [Keras](https://keras.io/) (Titanic Dataset)
 * ### Using Models in Keras (Save, Reload, and add extra features for classification problems)
+* ### Model Optimization via Stochastic Gradient Descent(SGD) with different Learning Rates
