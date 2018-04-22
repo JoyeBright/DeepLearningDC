@@ -3,6 +3,7 @@ import pandas as pd
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.utils import to_categorical
+from keras.callbacks import EarlyStopping
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -30,5 +31,9 @@ model.add(Dense(2, activation='softmax'))
 
 # Compile the model
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+# Using EarlyStopping monitor callback
+# patience=3 indicates how many epochs should pass without improving
+# Imporoving here means less val_loss
+early_stopping_monitor = EarlyStopping(monitor='val_loss', patience=3)
 # Fit the model
-model.fit(predictors, target, epochs=20, validation_split=0.3)
+model.fit(predictors, target, epochs=30, validation_split=0.3, callbacks=[early_stopping_monitor])

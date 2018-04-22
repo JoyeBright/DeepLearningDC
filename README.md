@@ -16,3 +16,4 @@
 * ### Classification Models in [Keras](https://keras.io/) (Titanic Dataset)
 * ### Using Models in Keras (Save, Reload, and add extra features for classification problems)
 * ### Model Optimization via Stochastic Gradient Descent(SGD) with different Learning Rates
+* ### Model Validation in Keras Using Early Stopping Monitor
