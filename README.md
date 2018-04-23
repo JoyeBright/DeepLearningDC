@@ -17,4 +17,4 @@
 * ### Using Models in Keras (Save, Reload, and add extra features for classification problems)
 * ### Model Optimization via Stochastic Gradient Descent(SGD) with different Learning Rates
 * ### Model Validation in Keras Using Early Stopping Monitor
-
+* ### Model Comparison Using Matplotlib in order to check the validation score
