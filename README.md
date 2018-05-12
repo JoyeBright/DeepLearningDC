@@ -1,4 +1,4 @@
-# Deep-Learning in Python by DataCamp
+# Deep-Learning in Python by Keras on top of Tensorflow
 
 ## Contents
 
